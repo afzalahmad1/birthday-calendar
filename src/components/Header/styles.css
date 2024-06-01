@@ -1,0 +1,30 @@
+.date-container{
+    /* border: 1px solid red; */
+    width: 230px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: .5rem 2rem;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 1px 6px 10px #ddd ;
+}
+.links{
+    display: flex;
+    column-gap: 2rem;
+    font-size: 20px;
+}
+.links:hover{
+    color: blue;
+}
+@media(min-width:300px) and (max-width:800px){
+    .navbar{
+        row-gap: 1rem;
+    }
+    .links{
+        font-size: 16px;
+    }
+}
